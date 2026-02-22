@@ -1,3 +1,10 @@
+## v0.36.5
+
+- Disabled collection and fields name normalization while in IME mode ([#7532](https://github.com/pocketbase/pocketbase/pull/7532); thanks @miaopan607).
+
+- Updated `modernc.org/sqlite` to v1.46.1 _(resets connection state on Tx.Commit failure)_.
+
+
 ## v0.36.4
 
 - Made the optional `Bearer` token prefix case-insensitive ([#7525](https://github.com/pocketbase/pocketbase/pull/7525); thanks @benjamesfleming).
