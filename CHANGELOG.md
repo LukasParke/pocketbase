@@ -1,3 +1,11 @@
+## v0.36.8
+
+- Fixed OAuth2 client secret reset when serializing a cached collection model.
+
+- Bumped all Go and npm deps.
+    _This should also silent recent spam reports and security scanners regarding [CVE-2026-33809](https://www.cve.org/CVERecord?id=CVE-2026-33809) `golang.org/x/image` bug (it is not an issue in PocketBase because we don't support TIFF thumbs)._
+
+
 ## v0.36.7
 
 - Fixed high memory usage with large file uploads ([#7572](https://github.com/pocketbase/pocketbase/discussions/7572)).
