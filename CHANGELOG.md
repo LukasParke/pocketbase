@@ -1,3 +1,10 @@
+## v0.37.5 (WIP)
+
+- Fixed password fields not being detected as changed ([#7670](https://github.com/pocketbase/pocketbase/issues/7670)).
+
+- Added the local time zone name next to the `date` field label.
+
+
 ## v0.37.4
 
 - Added backups list scroll container ([#7655](https://github.com/pocketbase/pocketbase/issues/7655)).
