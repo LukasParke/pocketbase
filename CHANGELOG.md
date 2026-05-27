@@ -1,3 +1,13 @@
+## v0.39.0 (WIP)
+
+- Added new "SQL console" section under _Settings > Debug_ allowing executing any raw SQL query from the UI ([#2236](https://github.com/pocketbase/pocketbase/issues/2236); [#7638](https://github.com/pocketbase/pocketbase/discussions/7638)).
+    _Note that this is intended for one-off analytic queries, the occasional `VACUUM`/`PRAGMA optimize` or debug purposes and not as the primary interface for interacting with your PocketBase data because it can break your application if not used with proper care!_
+
+- Fixed logs bulk selection export error.
+
+- Other minor improvements (optimized logs and records list rendering, word breaking in labels, text contrast improvements, registered missing `oidc2` and `oidc3` option fields, updated default email template texts for consistency, etc.).
+
+
 ## v0.38.2
 
 - Added `RealtimeConnectRequestEvent.MaxTimeout` field to specify the absolute max duration a realtime connection can remain open (default to 30mins).
