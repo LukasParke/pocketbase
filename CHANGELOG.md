@@ -1,3 +1,14 @@
+## v0.39.3
+
+- Fixed JS error on `file` settings `maxSelect` change ([#7731](https://github.com/pocketbase/pocketbase/issues/7731)).
+
+- Apply the `Ctrl+S` record panel save shortcut only if it is the current top open modal.
+
+- Fixed `number` settings validator to not ignore 0 `max` value.
+
+- Normalized field settings validation error messages and tooltips.
+
+
 ## v0.39.2
 
 - Fixed records list UI sorting ([#7724](https://github.com/pocketbase/pocketbase/issues/7724)).
