@@ -1,3 +1,12 @@
+## v0.39.11 (WIP)
+
+- Fixed "API preview" examples ([#7782](https://github.com/pocketbase/pocketbase/issues/7782), [#7785](https://github.com/pocketbase/pocketbase/issues/7785)).
+
+- Other minor UI improvements (fixed sortable `dragend` event handling, allow ESC to workaround TAB trap for the rule fields, updated shablon, updated npm dev dependencies, etc.).
+
+- (@todo) Bumped min Go GitHub action version to 1.26.6 because it comes with some [minor bug and security fixes](https://github.com/golang/go/issues?q=milestone%3AGo1.26.6).
+
+
 ## v0.39.10
 
 - Reverted the auto panic recover handling for the cli commands to preserve the old behavior and allow panic to force exit with non-zero code ([#7781](https://github.com/pocketbase/pocketbase/issues/7781)).
